@@ -1,0 +1,42 @@
+.cards {
+    border-radius: 5px;
+    border: 1px gray solid;
+    background-color: #fff;
+    margin: 10px;
+  }
+
+.card {
+    width: 190px;
+    height: 254px;
+    background-image: linear-gradient(163deg, #899c92 0%, #e9c257 100%);
+    border-radius: 20px;
+    transition: all .3s;
+    margin: 5px;
+    display: inline-block;
+}
+   
+.card2 {
+    width: 190px;
+    height: 254px;
+    background-color: #c4c0c0;
+    border-radius:px;
+    text-align: center;
+    transition: all .6s;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+   
+.card2:hover {
+    transform: scale(0.98);
+    border-radius: 20px;
+}
+   
+.card:hover {
+    box-shadow: 0px 0px 30px 1px rgba(96, 98, 102);
+}
+
+.card img {
+    width: 100px;
+    margin-inline: auto;
+}

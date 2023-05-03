@@ -1,0 +1,27 @@
+@import "./styles/reset.css";
+@import "./styles/header.css";
+@import "./styles/sidebar.css";
+@import "./styles/cards.css";
+@import "./styles/footer.css";
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #cfc7c7;
+}
+
+h1 {
+    margin: 0;
+    padding: 15px 0;
+}
+
+.main {
+    padding: 20px;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 265px 3fr;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}

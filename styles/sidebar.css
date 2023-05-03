@@ -1,0 +1,64 @@
+.sidenav {
+    height: fit-content;
+    background-color: #fff;
+    margin: 8px;
+    border-radius: 5px;
+    border: 1px gray solid;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000000;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #555;
+}
+
+
+.sidebar {
+    background-color: #f2f2f2;
+    margin: 5px;
+    padding: 10px;
+}
+  
+.sidebar h2 {
+  font-size: 1.2rem;
+  margin-top: 0;
+}
+
+.sidebar form {
+  margin-top: 10px;
+}
+
+.sidebar label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.sidebar select {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.sidebar button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: gray;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.sidebar button:hover {
+  background-color: #555;
+}

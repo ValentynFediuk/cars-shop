@@ -1,79 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ua">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="image/" type="image/png">
     <title>AutoShop</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
-    <header>
+  <header>
 		<h1>Автосалон з продажу автомобілів</h1>
-	</header>
-	<nav> 
+    <nav> 
       <a href="avtobiogr.html">Головна</a>
       <a href="hobby.html">Про нас</a>
       <a href="spisok.html">Контакти</a>
-	</nav>
-  <div class="sidenav">
-    <div class="sidebar">
-      <h2>Фільтр</h2>
-      <form>
-        <!-- <label for="priceFrom">Ціна від:</label>
-        <input type="number" id="priceFrom" name="priceFrom" min="0" step="1000">
-        <label for="priceTo">Ціна до:</label>
-        <input type="number" id="priceTo" name="priceTo" min="0" step="1000"> -->
-        <label for="make">Марка:</label>
-        <select id="make" name="make" onchange="populateModels(this.value); toggleModelAndYear(this)">
-          <option value="">Виберіть марку</option>
-          <option value="BMW">BMW</option>
-          <option value="Ford">Ford</option>
-          <option value="Honda">Honda</option>
-        </select>
-        <label for="model">Модель:</label>
-        <select id="model" name="model" disabled></select>
-        <label for="year">Рік:</label>
-        <select id="year" name="year" disabled>
-          <option value="">Виберіть рік</option>
-          <option value="2022">2022</option>
-          <option value="2021">2021</option>
-          <option value="2020">2020</option>
-          <option value="2019">2019</option>
-        </select>
-        <button type="submit">Фільтрувати</button>
-      </form>
-    </div> 
-  </div>
+	  </nav>
+	</header>
+
   <main class="main">
-    <div class="card">
-      <div class="card2">
-        <img src="image/atb.png">
-        <h3 class="card-make">BMW</h3>
-        <h4 class="card-model">X5</h4>
-        <p class="card-year">2021</p>
-      </div>
+    <div class="sidenav">
+      <div class="sidebar">
+        <h2>Фільтр</h2>
+        <form>
+          <!-- <label for="priceFrom">Ціна від:</label>
+          <input type="number" id="priceFrom" name="priceFrom" min="0" step="1000">
+          <label for="priceTo">Ціна до:</label>
+          <input type="number" id="priceTo" name="priceTo" min="0" step="1000"> -->
+          <label for="make">Марка:</label>
+          <select id="make" name="make" onchange="populateModels(this.value); toggleModelAndYear(this)">
+            <option value="">Виберіть марку</option>
+            <option value="BMW">BMW</option>
+            <option value="Ford">Ford</option>
+            <option value="Honda">Honda</option>
+          </select>
+          <label for="model">Модель:</label>
+          <select id="model" name="model" disabled></select>
+          <label for="year">Рік:</label>
+          <select id="year" name="year" disabled>
+            <option value="">Виберіть рік</option>
+            <option value="2022">2022</option>
+            <option value="2021">2021</option>
+            <option value="2020">2020</option>
+            <option value="2019">2019</option>
+          </select>
+          <button type="submit">Фільтрувати</button>
+        </form>
+      </div> 
     </div>
-    <div class="card">
-      <div class="card2">
-        <img src="image/atb.png">
-        <h3 class="card-make">Ford</h3>
-        <h4 class="card-model">Focus</h4>
-        <p class="card-year">2019</p>
+    <div class="cards">
+      <div class="card">
+        <div class="card2">
+          <img src="image/atb.png">
+          <h3 class="card-make">BMW</h3>
+          <h4 class="card-model">X5</h4>
+          <p class="card-year">2021</p>
+        </div>
       </div>
-    </div>
-    <div class="card">
-      <div class="card2">
-        <img src="image/atb.png">
-        <h3 class="card-make">Honda</h3>
-        <h4 class="card-model">Civic</h4>
-        <p class="card-year">2022</p>
+      <div class="card">
+        <div class="card2">
+          <img src="image/atb.png">
+          <h3 class="card-make">Ford</h3>
+          <h4 class="card-model">Focus</h4>
+          <p class="card-year">2019</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card2">
+          <img src="image/atb.png">
+          <h3 class="card-make">Honda</h3>
+          <h4 class="card-model">Civic</h4>
+          <p class="card-year">2022</p>
+        </div>
       </div>
     </div>
   </main>
   <footer>
 		<p>&copy; 2023 Мій сайт</p>
 	</footer>
-  <script src="script.js"></script>
+  <script src="main.js"></script>
 </body>
 </html>
